@@ -32,7 +32,7 @@ void setup() {
 
     if(prox == LOW)
   {
-       for(int x = 0; x < 11; x++) {
+       for(int x = 0; x < 5; x++) {
       digitalWrite(rele, LOW);
       delay(42);
       digitalWrite(rele, HIGH);
@@ -63,7 +63,7 @@ void loop() {
     braco_dir.write(60);
     delay(1500);
 
-    for(int x = 0; x < 11; x++) {
+    for(int x = 0; x < 15; x++) {
       digitalWrite(rele, LOW);
       delay(42);
       digitalWrite(rele, HIGH);
